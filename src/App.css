@@ -1,0 +1,71 @@
+a{
+  cursor: pointer;
+}
+.App {
+  text-align: center;
+  color: whitesmoke;
+}
+
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.App-link {
+  color: #61dafb;
+}
+#author{
+  font-size: 1rem;
+}
+body{
+  background-color: #1c263a;
+  margin:0 300px;
+}
+.button{
+  padding: 1em 2em;
+
+  align-self:center;
+  font-size: 1rem;
+  background-color: #1c263a;
+}
+.color-transition{
+  transition: 0.3s;
+}
+.icon{
+  font-size: 0.7em;
+  color: white;
+}
+
+#new-quote{
+  border: whitesmoke 3px solid;
+  border-radius: 8px;
+  color: whitesmoke;
+  cursor: pointer;
+  margin-top: 8em;
+}
+
+.button:hover{
+  background-color: #3e8e41;
+}
+#text{
+  font-style: italic;
+  line-height: 30px;
+}
+#quote-box{
+  display: flex;
+  flex-direction: column;
+}
+#tweet-quote{
+  margin-top: 0.5em;
+  align-self: center;
+  padding: 0.5em 1em;
+  border: whitesmoke 3px solid;
+  border-radius: 8px;
+}
+#tweet-quote:hover{
+  background-color: #3e8e41;
+}
